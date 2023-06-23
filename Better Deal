@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b;
+	    cin>>a>>b;
+	    int s= 100-a;
+	    int q= 200-(2*b);
+	  
+	    if(s>q) cout<<"second";
+	    else if(s<q) cout<<"first";
+	    else cout<<"both";
+	    cout<<endl;
+	    
+	}
+	return 0;
+}
